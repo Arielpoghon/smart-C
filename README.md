@@ -90,6 +90,16 @@ reporter.generate_markdown(result)
 reporter.generate_html(result)
 ```
 
+### Docker Support
+
+```bash
+# Build image
+docker build -t smart-audit .
+
+# Run container
+docker run -p 8000:8000 smart-audit
+```
+
 ## Architecture
 
 ```

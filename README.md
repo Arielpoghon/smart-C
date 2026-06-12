@@ -21,6 +21,13 @@ See [ARCHITECTURE.md](ARCHITECTURE.md) for detailed design and system overview.
 
 ## Quick Start
 
+### Prerequisites
+
+- Python 3.9 or higher
+- Git
+- Solc (optional, for compilation checks)
+- Slither (optional, for advanced analysis)
+
 ### Installation
 
 ```bash

@@ -266,6 +266,7 @@ PATTERNS["custom_vuln"] = {
 - [x] Report generation (JSON, MD, HTML)
 - [x] POC generation
 - [x] Slither integration
+- [x] Docker support
 - [ ] Web dashboard
 - [ ] AI-assisted analysis
 - [ ] Multi-chain support

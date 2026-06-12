@@ -15,6 +15,10 @@ A powerful automated smart contract security audit platform that clones repos, a
 - **Web Dashboard** - Monitor audits in real-time (coming soon)
 - **Bug Bounty Ready** - Format reports for submission
 
+## Architecture
+
+See [ARCHITECTURE.md](ARCHITECTURE.md) for detailed design and system overview.
+
 ## Quick Start
 
 ### Installation

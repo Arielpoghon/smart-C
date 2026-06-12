@@ -1,5 +1,9 @@
 # Smart Contract Audit Tool
 
+[![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://python.org)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Solidity](https://img.shields.io/badge/Solidity-0.8+-363636.svg)](https://soliditylang.org)
+
 A powerful automated smart contract security audit platform that clones repos, analyzes Solidity code, detects vulnerabilities, generates reports, and prepares bug bounty submissions.
 
 ## Features

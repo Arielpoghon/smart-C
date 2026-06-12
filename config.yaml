@@ -1,0 +1,56 @@
+# Smart Contract Audit Tool Configuration
+
+# Analysis settings
+analysis:
+  slither:
+    enabled: true
+    timeout: 300
+    detectors: "all"
+  
+  pattern_matching:
+    enabled: true
+    custom_patterns: true
+  
+  compilation:
+    enabled: true
+    solc_version: "0.8.28"
+
+# Output settings
+output:
+  formats:
+    - json
+    - markdown
+    - html
+  directory: "./audit-output"
+  include_poc: true
+  include_tests: true
+
+# Vulnerability patterns to check
+patterns:
+  reentrancy:
+    enabled: true
+    severity: high
+  
+  access_control:
+    enabled: true
+    severity: medium
+  
+  overflow:
+    enabled: true
+    severity: medium
+  
+  oracle:
+    enabled: true
+    severity: high
+  
+  centralization:
+    enabled: true
+    severity: informational
+
+# Reporting
+reporting:
+  executive_summary: true
+  detailed_findings: true
+  code_snippets: true
+  recommendations: true
+  poc_generation: true

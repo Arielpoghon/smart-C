@@ -1,0 +1,24 @@
+# Smart Contract Audit Tool - Dependencies
+
+# Core
+fastapi>=0.104.0
+uvicorn>=0.24.0
+pydantic>=2.5.0
+gitpython>=3.1.0
+
+# Analysis
+solcx>=0.2.0
+web3>=6.0.0
+
+# Reporting
+jinja2>=3.1.0
+markdown>=3.5.0
+
+# Optional - Advanced analysis
+# mythril>=0.23.0
+# echidna>1.7.0
+
+# Utilities
+python-dotenv>=1.0.0
+aiofiles>=23.2.0
+httpx>=0.25.0

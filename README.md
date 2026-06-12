@@ -285,6 +285,20 @@ PATTERNS["custom_vuln"] = {
 
 MIT License
 
+## Contributing
+
+Contributions are welcome! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- [Slither](https://github.com/crytic/slither) - Static analysis framework
+- [OpenZeppelin](https://openzeppelin.org/) - Secure smart contract libraries
+- [Foundry](https://book.getfoundry.sh/) - Ethereum development toolkit
+
 ## Disclaimer
 
 This tool is for educational and security research purposes. Always conduct your own due diligence before deploying smart contracts. The tool may not detect all vulnerabilities.
